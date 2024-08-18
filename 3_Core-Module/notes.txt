@@ -1,0 +1,21 @@
+In Node.js, Modules are the blocks of encapsulated code that communicate with an external application on the basis of their related functionality.
+
+1.Core Modules
+Node.js has many built-in modules that are part of the platform and come with Node.js installation. These modules can be loaded into the program by using the required function.
+
+ex.
+1.console
+2.fs
+3.Buffer
+4.HTTP
+
+Global modules
+
+- modules which doesn't re to import
+- ex. console,__dirname,__filename
+
+2.Local Modules
+Unlike built-in and external modules, local modules are created locally in your Node.js application. 
+
+3.Third-party modules
+Third-party modules are modules that are available online using the Node Package Manager(NPM). These modules can be installed in the project folder or globally. Some of the popular third-party modules are Mongoose, express, angular, and React. 
