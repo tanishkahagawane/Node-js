@@ -1,0 +1,5 @@
+
+The Path Module in Node.js provides the utilities for working with file and directory paths.
+
+can we access any file outside the current directory in nodejs?
+no
