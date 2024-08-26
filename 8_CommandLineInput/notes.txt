@@ -1,0 +1,1 @@
+The process object in Node.js is a global object, although it is defined in process module. It is an instance of EventEmitter class. The process object provides information on current Node.js process. With the help of a number of methods and properties associated with this object, it is possible to control the current Node.js process.
