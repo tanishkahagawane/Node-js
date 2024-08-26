@@ -1,0 +1,33 @@
+ Here are concise notes on HTTP status codes:
+
+200 OK
+Meaning: Request succeeded.
+Usage: Used for successful GET, POST, PUT, DELETE requests.
+500 Internal Server Error
+Meaning: Server encountered an unexpected error.
+Usage: Indicates issues on the server side; general error message.
+Other Common Status Codes
+1xx Informational
+
+100 Continue: Initial part of request accepted; client should continue.
+2xx Success
+
+201 Created: New resource created (POST request).
+204 No Content: Request successful; no content to return (DELETE request).
+3xx Redirection
+
+301 Moved Permanently: Resource moved to a new URL permanently.
+302 Found: Resource temporarily moved to a different URL.
+4xx Client Error
+
+400 Bad Request: Malformed request syntax.
+401 Unauthorized: Authentication required or failed.
+403 Forbidden: Server understands request but refuses to authorize.
+404 Not Found: Resource not found.
+5xx Server Error
+
+502 Bad Gateway: Invalid response from upstream server.
+503 Service Unavailable: Server is overloaded or under maintenance.
+
+
+
