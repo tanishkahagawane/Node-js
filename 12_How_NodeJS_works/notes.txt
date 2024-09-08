@@ -1,0 +1,9 @@
+Node JS Achitecture
+consist of 
+1.Call Stack
+ - The call stack is a crucial concept in JavaScript’s runtime environment, 
+   representing the mechanism by which the JavaScript engine keeps track of function calls in a program. 
+ - It operates as a Last In, First Out (LIFO) data structure, meaning that the last function called is the first one to be resolved.
+
+2.Node API
+3.CallBack Queue
