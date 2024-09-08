@@ -1,4 +1,7 @@
 Node JS Achitecture
+
+NodeJS is built on an event-driven architecture, which is fundamental to its asynchronous and non-blocking I/O model.
+
 consist of 
 1.Call Stack
  - The call stack is a crucial concept in JavaScript’s runtime environment, 
@@ -6,4 +9,7 @@ consist of
  - It operates as a Last In, First Out (LIFO) data structure, meaning that the last function called is the first one to be resolved.
 
 2.Node API
+    This toolkit was introduced in Node 8.0.0 and acts as an intermediary between C/C++ code and the Node JavaScript engine. It allows C/C++ code to create, access, and manipulate JavaScript objects. 
+
 3.CallBack Queue
+    - the Callback Queue is where our callback functions will wait; they need to wait for the Call Stack to be empty.
