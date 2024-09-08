@@ -1,0 +1,9 @@
+Express.js is a fast, flexible and minimalist web framework for Node.js.
+It’s effectively a tool that simplifies building web applications and APIs using JavaScript on the server side. Express is an open-source that is developed and maintained by the Node.js foundation.
+
+- can be used to make apis,routes , middleware , requets handle for API , 
+  webpages (html,css)
+
+- install
+   npm install express
+ 
