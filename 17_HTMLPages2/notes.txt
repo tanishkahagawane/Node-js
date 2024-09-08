@@ -1,0 +1,9 @@
+I.To remove the extenstion of the file
+- why ?
+1.security
+2. don't want users to know the tech used
+
+
+II.Extenstion(URL) and the page should be different
+
+III.404 Page
