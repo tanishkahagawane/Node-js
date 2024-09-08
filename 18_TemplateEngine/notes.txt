@@ -1,0 +1,6 @@
+- A template engine in Node.js is a tool that allows you to create dynamic HTML content by combining templates with data.
+- It does this by replacing variables in a template file with actual values at runtime, and then transforming the template into an HTML file that is sent to the client.
+- get values from database
+
+ejs - embedded javascipt templates
+npm install ejs 
