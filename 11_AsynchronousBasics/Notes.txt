@@ -3,3 +3,4 @@ Synchronous - op tasks are performed one at a time.
 Asynchronous - Second task do not wait for first task to finish
              - ex. javascipt
              - adv - makes tasks fast
+             
