@@ -1,0 +1,20 @@
+Router-level middleware in Node.js is a type of middleware that's similar to application-level middleware, but it's limited to a specific instance of Express.Router(). It's used to run for all routes in a router object. 
+
+Difference between the App-level and route-level middleware:
+
+App-level middleware
+- An intermediate implementation binds to an expression using app.use ()
+- It is a universal and applicable to all methods globally.
+- It is complete for all the applications except of route.
+- Small granular control for tasks that need to be implemented globally.
+- Applications have methods of listening and other methods.
+- The application “does” the main role.
+
+
+route-level middleware
+- Router level middleware works the same as application-level middleware, except that they depend on the express. Router () instance.
+- The source of routing group or route is specific.
+- Only done when the specified path matches.
+- More control, ideal for certain tasks.
+- Routers have no methods like this.
+- While routing only groups some routes and provides encapsulation.
