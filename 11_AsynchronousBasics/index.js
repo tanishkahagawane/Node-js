@@ -18,13 +18,31 @@
 //////////////
 //Drawback
 
+// let a =10;
+// let b=0;
+
+// setTimeout(()=>{
+//     b=20;
+// },2000)
+
+// console.log(a+b);  //10
+
+//////////////
+//solution : handle with callback or promise
+
+
 let a =10;
 let b=0;
 
-setTimeout(()=>{
-    b=20;
-},2000)
 
-console.log(a+b);  //10
+let waitingData = new Promise((resolve, reject)=>{
+    setTimeout(()=>{
+        resolve(20)
+    },2000)
+})
 
-//solution : handle with callback or promise
+waitingData.then((data)=>{
+    console.log(a+data)
+})
+
+//in some functions like fetch() promise are handled internally.
