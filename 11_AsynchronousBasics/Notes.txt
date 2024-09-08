@@ -1,0 +1,5 @@
+Synchronous - op tasks are performed one at a time.
+            - ex.php
+Asynchronous - Second task do not wait for first task to finish
+             - ex. javascipt
+             - adv - makes tasks fast
