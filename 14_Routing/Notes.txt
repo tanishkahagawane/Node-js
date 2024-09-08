@@ -1,0 +1,2 @@
+Request(Client)  <---> Response(server)
+React/JS         <---> Nodejs
